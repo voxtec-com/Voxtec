@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Ein jonass</title>
+
+  <style>
+   body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#vorwort {
+  width: 60%;
+  margin: 5vh auto;   /* Abstand abhängig von Bildschirmhöhe */
+  font-size: 3vw;     /* Schrift passt sich an */
+  border: 5px solid black;
+  padding: 2rem;
+}
+
+#button1 {
+  margin: 1vh auto;
+  font-size: 3vw;
+  padding: 0rem 1rem;
+} 
+#button2 {
+  margin: 2vh auto;
+  margin-right: 0%;
+  font-size: 3vw;
+  padding: 0rem 1rem;
+}
+
+.bild1 {
+  width: 100%;
+  height: auto;   /* Wichtig für responsive Bilder */
+}
+#abschluss {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+  </style>
+
+</head>
+
+<body>
+
+  <img src="GfG Beschreibung.jpg" alt="gfg" class="bild1">
+  
+  <p id="vorwort">Hallo an alle Fans von EinJonas</p>
+
+  <button onclick="button1()" id="button1">
+    Hier drauf drücken für aktuelle Infos
+  </button>
+  
+  <button onclick="button2()" id="button2">
+    Hier drauf drücken um zu sehen wo er zu finden ist 
+  </button>
+
+  <p id="infoText"></p>
+  
+  <p id="twitchLink"></p>
+
+  <p id="abschluss">
+    Diese Seite wurde von voxtec entwickelt und gesponsert
+  </p>
+
+  <script src="Jonas Skript.js"></script> 
+
+</body>
+  </html>
